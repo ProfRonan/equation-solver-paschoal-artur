@@ -33,7 +33,7 @@ def test_grau_2_a_0(monkeypatch: MonkeyPatch, test_input: list[str], expected_ou
     "test_input, expected_output",
     [
         (["2", "1", "0", "0"], ["A equação é do segundo grau",
-                                "A equação possui uma raiz real", "0.00"]),
+                                "A equação possui apenas uma raiz real", "A equação possui uma raiz real", "0.00"]),
         (["2", "1", "0", "1"], ["A equação é do segundo grau",
                                 "A equação não possui raízes reais"]),
         (["2", "1", "0", "-1"], ["A equação é do segundo grau",
@@ -45,7 +45,7 @@ def test_grau_2_a_0(monkeypatch: MonkeyPatch, test_input: list[str], expected_ou
         (["2", "1", "2", "0"], ["A equação é do segundo grau",
                                 "A equação possui duas raízes reais", "-2.00", "0.00"]),
         (["2", "2", "0", "0"], ["A equação é do segundo grau",
-                                "A equação possui uma raiz real", "0.00"]),
+                                "A equação possui apenas uma raiz real", "A equação possui uma raiz real", "0.00"]),
     ]
 )
 def test_grau_2(monkeypatch: MonkeyPatch, test_input: list[str], expected_output: list[str]):
