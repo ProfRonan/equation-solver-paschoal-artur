@@ -1,3 +1,4 @@
+import math
 #Receiving information from user
 Dg = int(input("Informe o grau da equação: \n"))
 
@@ -25,7 +26,7 @@ if Dg == 2 :
     if auser2 != 0 :
         buser2 = int(input("Informe um valor para o 'b' da equação : \n"))
         cuser2 = int(input("Informe um valor para o 'c' da equação : \n"))
-        delta_eq = int((buser2**2) - 4 * (auser2 * cuser2))
+        delta_eq = int((buser2**2) - (4 * auser2 * cuser2))
         if delta_eq < 0 :
             print("A equação não possui raízes reais\n")
 
@@ -36,7 +37,7 @@ if Dg == 2 :
 
         if delta_eq > 0 :
             print("A equação possui duas raízes reais\n")
-            root_positive = int(-(buser2) + (delta_eq **(1/2)) / 2 * auser2)
-            root_negative = int(-(buser2) - (delta_eq **(1/2)) / 2 * auser2)
-            print(f"{root_negative: .2f}\n")
+            root_positive = int((-buser2 + math.sqrt(delta_eq)) / 2 * auser2)
+            root_negative = int((-buser2 - math.sqrt(delta_eq)) / 2 * auser2)
+            print(f"{root_negative: .2f}")
             print(f"{root_positive: .2f}\n")
