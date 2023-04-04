@@ -9,7 +9,7 @@ if Dg == 1 :
     print("A equação é do primeiro grau")
     auser = float(input("Informe um valor para o 'a' da equação: \n"))
     if auser == 0:
-        print("Valor de 'a' inválido")
+        print("Valor de a inválido")
         exit()
     if auser != 0 :
         buser = float(input("Informe um valor para o 'b' da equação : \n"))
