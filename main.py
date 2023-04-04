@@ -13,8 +13,8 @@ if Dg == 1 :
         exit()
     if auser != 0 :
         buser = float(input("Informe um valor para o 'b' da equação : \n"))
-        operation = float(-buser)/auser
-        print(f"A raíz da sua equação é {round(operation, 2)}")
+        operation = float((-buser)/auser)
+        print(f"A raíz da sua equação é {operation: .2f}")
         exit()
 if Dg == 2 :
     print("A equação é do segundo grau")
