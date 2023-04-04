@@ -36,7 +36,7 @@ if Dg == 2 :
 
     if delta > 0 :
         print("A equação possui duas raízes reais\n")
-        root_positive = -(buser2) + (delta **(1/2)) / 2 * auser2
-        root_negative = -(buser2) - (delta **(1/2)) / 2 * auser2
+        root_positive = int(-(buser2) + (delta **(1/2)) / 2 * auser2)
+        root_negative = int(-(buser2) - (delta **(1/2)) / 2 * auser2)
         print(f"{root_negative: .2f}\n")
         print(f"{root_positive: .2f}\n")
