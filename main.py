@@ -14,7 +14,7 @@ if Dg == 1 :
     if auser != 0 :
         buser = int(input("Informe um valor para o 'b' da equação : "))
         operation = int((-buser)/auser)
-        print(f"A raíz da sua equação é {operation: .2f}")
+        print(f"{operation: .2f}")
 
 if Dg == 2 :
     print("A equação é do segundo grau")
