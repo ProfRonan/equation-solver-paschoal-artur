@@ -1,0 +1,10 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.10, pytest-7.3.1, pluggy-1.0.0
+rootdir: /home/seuronao/Documents/Equation Solver-04-24-2023-03-36-22/paschoal-artur
+collected 20 items
+
+test_grau_1.py .......                                                   [ 35%]
+test_grau_2.py ........                                                  [ 75%]
+test_grau_invalido.py .....                                              [100%]
+
+============================== 20 passed in 0.04s ==============================
