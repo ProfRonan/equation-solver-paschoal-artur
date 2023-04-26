@@ -1,34 +1,14 @@
 {
   "tests": [
     {
-      "name": "Grau Invalido",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest test_grau_invalido.py",
+      "name": "Test All",
+      "setup": "",
+      "run": "python -m unittest",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 30
-    },
-    {
-      "name": "Grau 1",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest test_grau_1.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 30
-    },
-    {
-      "name": "Grau 2",
-      "setup": "sudo -H pip3 install pytest",
-      "run": "pytest test_grau_2.py",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 40
+      "points": 100
     }
   ]
 }
