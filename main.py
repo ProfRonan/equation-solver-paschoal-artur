@@ -35,7 +35,7 @@ if Dg == 2 :
             print("A equação não possui raízes reais")
 
         if delta_eq == 0 :
-            print("A equação possui apenas uma raiz real")
+            print("A equação possui uma raiz real")
             root_1 = int(-b_user2 / 2 * a_user2)
             print(f"{root_1: .2f}")
 
