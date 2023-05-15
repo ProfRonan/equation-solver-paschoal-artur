@@ -129,7 +129,7 @@ class TestMain(unittest.TestCase):
         self.assertIn("0.00", captured_output.getvalue().strip())
 
     @patch("builtins.input", side_effect=["2", "3", "0", "-27"])
-    def test_print_grau_2_a_1_b_0_c_m27(self, _mock_input):
+    def test_print_grau_2_a_3_b_0_c_m27(self, _mock_input):
         """Testa se o programa imprime "A equação é do segundo grau",
         "A equação possui uma raiz real", "-3.00" e "3.00"
         quando o usuário digita 2, 3, 0, 27.
